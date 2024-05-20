@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
 
 export default function WelcomePage() {
   const { scrollY } = useScroll();
@@ -37,20 +38,20 @@ export default function WelcomePage() {
           <p>
             Today, AI is not a futuristic idea but a genuine part of education
             as our digital world changes fast. AI is changing how we teach and
-            learn. It's a big advancement. It is reshaping traditional methods.
-            AI stands out as a significant catalyst in this transformation. AI
-            personalizes learning and makes administrative tasks easier. These
-            changes were once hard to imagine.
+            learn. It&apos;s a big advancement. It is reshaping traditional
+            methods. AI stands out as a significant catalyst in this
+            transformation. AI personalizes learning and makes administrative
+            tasks easier. These changes were once hard to imagine.
           </p>
           <p>
             Traditionally, standardized curricula and one-size-fits-all teaching
-            approaches have characterized education. Today's students have
+            approaches have characterized education. Today&apos;s students have
             diverse needs and learning styles. Thus, education must be more
             personalized and adaptable to meet these requirements. This is where
             AI comes into play. AI assists educators in personalizing learning
             experiences. It achieves this through the use of machine learning
             algorithms and data analytics. This means tailoring learning to fit
-            each student's strengths, weaknesses, and preferences.
+            each student&apos;s strengths, weaknesses, and preferences.
           </p>
           <p>
             Moreover, AI is not confined to the classroom. It helps with school
@@ -62,10 +63,16 @@ export default function WelcomePage() {
           <p>
             This article talks about AI in typical classrooms. It explains how
             AI alters teaching methods and student learning. We use the
-            Education Hub's guide to understand how schools use artificial
-            intelligence. The guide helps us learn about AI in schools. This
-            helps us explore different ways we use AI in education and what it
-            means for the future of learning.
+            <Link
+              style={{ margin: "0px 5px" }}
+              href="https://educationhub.blog.gov.uk/2023/12/06/artificial-intelligence-in-schools-everything-you-need-to-know/"
+            >
+              Education Hub&apos;s
+            </Link>
+            guide to understand how schools use artificial intelligence. The
+            guide helps us learn about AI in schools. This helps us explore
+            different ways we use AI in education and what it means for the
+            future of learning.
           </p>
         </section>
 
@@ -116,11 +123,11 @@ export default function WelcomePage() {
           <h2>Intelligent Tutoring Systems</h2>
           <p>
             AI in education shows great potential, especially in creating
-            intelligent tutoring systems (ITS). Virtual teaching assistants use
+            intelligent tutoring systems ITS. Virtual teaching assistants use
             machine learning algorithms. They give personalized guidance and
-            feedback to students. In regular classrooms, teachers often can't
-            give each student personal help. But, with ITS, students get
-            immediate support to help them stick to their learning targets.
+            feedback to students. In regular classrooms, teachers often
+            can&apos;st give each student personal help. But, with ITS, students
+            get immediate support to help them stick to their learning targets.
           </p>
           <p>
             Assessing student performance is essential with an ITS. It helps
@@ -236,23 +243,25 @@ export default function WelcomePage() {
             classroom activities.
           </p>
           <p>
-            AI-powered personalized learning platforms adjust to each learner's
-            needs and preferences. They provide customized instruction and
-            support based on each individual's strengths and weaknesses. With
-            AI-driven inclusive practices, educators can empower themselves to
-            create learning environments. These environments celebrate
-            diversity, promoting equity and accessibility for all students.
+            AI-powered personalized learning platforms adjust to each
+            learner&apos;s needs and preferences. They provide customized
+            instruction and support based on each individual&apos;s strengths
+            and weaknesses. With AI-driven inclusive practices, educators can
+            empower themselves to create learning environments. These
+            environments celebrate diversity, promoting equity and accessibility
+            for all students.
           </p>
           <p>
-            AI's use in everyday education transforms how we teach and learn. AI
-            technologies can improve education by offering personalized learning
-            and intelligent tutoring systems. These advancements enhance
-            engagement, boost outcomes, and foster inclusivity. We can help
-            students excel in the digital age. This involves utilizing AI
-            innovations and addressing ethical concerns. We can create learning
-            environments that support their growth. As we explore AI's role in
-            education, we discover endless opportunities for innovation. These
-            shape the future of learning for generations to come.
+            AI&apos;s use in everyday education transforms how we teach and
+            learn. AI technologies can improve education by offering
+            personalized learning and intelligent tutoring systems. These
+            advancements enhance engagement, boost outcomes, and foster
+            inclusivity. We can help students excel in the digital age. This
+            involves utilizing AI innovations and addressing ethical concerns.
+            We can create learning environments that support their growth. As we
+            explore AI&apos;s role in education, we discover endless
+            opportunities for innovation. These shape the future of learning for
+            generations to come.
           </p>
           <div>
             <img
