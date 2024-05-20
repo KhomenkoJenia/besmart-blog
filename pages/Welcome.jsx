@@ -103,7 +103,7 @@ export default function WelcomePage() {
               Students can take part in learning using simulations, virtual
               labs, and gamified tasks. These methods help make concepts easier
               to grasp and relate to. Teachers can use AI to make learning
-              environments more engaging. This fosters students' curiosity,
+              environments more engaging. This fosters student&apos;s curiosity,
               creativity, and critical thinking skills. It enhances their
               learning activities.
             </p>
@@ -114,8 +114,8 @@ export default function WelcomePage() {
             take part in learning using simulations, virtual labs, and gamified
             tasks. These methods help make concepts easier to grasp and relate
             to. Teachers can use AI to make learning environments more engaging.
-            This fosters students' curiosity, creativity, and critical thinking
-            skills. It enhances their learning activities.
+            This fosters student&apos;s curiosity, creativity, and critical
+            thinking skills. It enhances their learning activities.
           </p>
         </section>
 
@@ -238,9 +238,9 @@ export default function WelcomePage() {
             technologies can help diverse learners. AI-powered tools help
             students with disabilities by offering customized help. These tools
             include apps for text-to-speech and speech-to-text. So, they tailor
-            help to fit each person's needs, making it easier for everyone to
-            access. These tools let them access educational content and join in
-            classroom activities.
+            help to fit each person&apos;s needs, making it easier for everyone
+            to access. These tools let them access educational content and join
+            in classroom activities.
           </p>
           <p>
             AI-powered personalized learning platforms adjust to each
